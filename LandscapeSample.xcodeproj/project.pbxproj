@@ -22,6 +22,8 @@
 		8AECBAF419DA6CA800886EF8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AECBAD819DA6CA800886EF8 /* CoreData.framework */; };
 		8AECBAFC19DA6CA800886EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AECBAFA19DA6CA800886EF8 /* InfoPlist.strings */; };
 		8AECBAFE19DA6CA800886EF8 /* LandscapeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AECBAFD19DA6CA800886EF8 /* LandscapeSampleTests.m */; };
+		8AECBB0A19DA6D5900886EF8 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AECBB0819DA6D5900886EF8 /* MyViewController.m */; };
+		8AECBB0B19DA6D5900886EF8 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AECBB0919DA6D5900886EF8 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8AECBAF919DA6CA800886EF8 /* LandscapeSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LandscapeSampleTests-Info.plist"; sourceTree = "<group>"; };
 		8AECBAFB19DA6CA800886EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AECBAFD19DA6CA800886EF8 /* LandscapeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeSampleTests.m; sourceTree = "<group>"; };
+		8AECBB0719DA6D5900886EF8 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		8AECBB0819DA6D5900886EF8 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		8AECBB0919DA6D5900886EF8 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				8AECBAE319DA6CA800886EF8 /* AppDelegate.h */,
+				8AECBB0719DA6D5900886EF8 /* MyViewController.h */,
+				8AECBB0819DA6D5900886EF8 /* MyViewController.m */,
+				8AECBB0919DA6D5900886EF8 /* MyViewController.xib */,
 				8AECBAE419DA6CA800886EF8 /* AppDelegate.m */,
 				8AECBAE919DA6CA800886EF8 /* Images.xcassets */,
 				8AECBAE619DA6CA800886EF8 /* LandscapeSample.xcdatamodeld */,
@@ -230,6 +238,7 @@
 			files = (
 				8AECBADF19DA6CA800886EF8 /* InfoPlist.strings in Resources */,
 				8AECBAEA19DA6CA800886EF8 /* Images.xcassets in Resources */,
+				8AECBB0B19DA6D5900886EF8 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 			files = (
 				8AECBAE519DA6CA800886EF8 /* AppDelegate.m in Sources */,
 				8AECBAE819DA6CA800886EF8 /* LandscapeSample.xcdatamodeld in Sources */,
+				8AECBB0A19DA6D5900886EF8 /* MyViewController.m in Sources */,
 				8AECBAE119DA6CA800886EF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +457,7 @@
 				8AECBB0319DA6CA800886EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AECBB0419DA6CA800886EF8 /* Build configuration list for PBXNativeTarget "LandscapeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +466,7 @@
 				8AECBB0619DA6CA800886EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
